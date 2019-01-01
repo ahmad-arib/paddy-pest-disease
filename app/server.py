@@ -9,7 +9,7 @@ from fastai import *
 from fastai.vision import *
 
 model_file_url = 'https://storage.googleapis.com/paddypestdiseasemodel/stage-2.pth'
-model_file_name = 'stage-2'
+model_file_name = 'model'
 classes = ['PyculariaOryzaeNeckPanicle', 'PyculariaOryzaeLeaf', 'LeptocorisaAcuta', 'PomaceaCanaliculataEgg', 'LocustaMigratoria', 'NilavarpataLugens', 'StemBorerAdult', 'XanthomonasOryzae', 'PomaceaCanaliculataAdult', 'SogatellaFurfifera', 'StemBorerLarva', 'TungroLeaf', 'NephotettixVirescensAdult']
 path = Path(__file__).parent
 
